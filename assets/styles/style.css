@@ -30,6 +30,8 @@ footer {
 nav {
   background-color: #00a2c6;
   padding: 5px;
+  position: sticky;
+  top: 0;
 }
 
 nav a {
@@ -47,6 +49,10 @@ nav li {
   display: inline;
   list-style-type: none;
   margin-right: 20px;
+}
+
+header {
+  display: inline;
 }
 
 .profile header {
